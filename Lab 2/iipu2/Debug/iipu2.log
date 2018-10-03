@@ -1,0 +1,3 @@
+﻿  Source.cpp
+e:\5term\labs\iipu2\iipu2\source.cpp(60): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+  iipu2.vcxproj -> E:\5term\labs\iipu2\Debug\iipu2.exe
