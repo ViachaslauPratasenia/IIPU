@@ -62,6 +62,7 @@ void ShowInfo(BatteryInfo battery) {
 	cout << "Battery charge level:   " << battery.ChargeLevel << endl;
 	cout << "Battery life percent:    " << battery.BatteryLifePercent << endl;
 	cout << "Battery saver status:    " << battery.BatterySaver << endl;
+	cout << "Battery life time :      " << battery.BatteryLifeTime / 60 << " min" << endl;
 }
 
 int main() {

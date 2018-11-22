@@ -12,4 +12,5 @@ public:
 	ChargeStatusEnum ChargeLevel;
 	BatteryLifePercent BatteryLifePercent;
 	BatterySaverStatusEnum  BatterySaver;
+	unsigned int BatteryLifeTime;
 };

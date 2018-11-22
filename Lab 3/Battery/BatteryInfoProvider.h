@@ -23,6 +23,13 @@ public:
 		battery.ChargeLevel = (ChargeStatusEnum) batteryState.BatteryFlag;
 		battery.BatteryLifePercent = (BatteryLifePercent) batteryState.BatteryLifePercent;
 		battery.BatterySaver = (BatterySaverStatusEnum) batteryState.SystemStatusFlag;
+		if (batteryState.ACLineStatus == 1) {
+			battery.BatteryLifeTime = 0;
+		}
+		else {
+			battery.BatteryLifeTime = batteryState.BatteryLifeTime;
+		}
+		
 
 		return battery;
 	}
