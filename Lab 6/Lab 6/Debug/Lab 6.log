@@ -1,0 +1,17 @@
+﻿  eject.c
+c:\users\user\documents\github\iipu\iipu\lab 6\lab 6\eject.c(22): warning C4047: функция: "DWORD" отличается по уровням косвенного обращения от "void *"
+c:\users\user\documents\github\iipu\iipu\lab 6\lab 6\eject.c(22): warning C4024: CreateFileA: различные типы для формального и фактического параметров 6
+  main.c
+c:\users\user\documents\github\iipu\iipu\lab 6\lab 6\main.c(19): warning C4047: функция: "DWORD" отличается по уровням косвенного обращения от "void *"
+c:\users\user\documents\github\iipu\iipu\lab 6\lab 6\main.c(19): warning C4024: CreateThread: различные типы для формального и фактического параметров 5
+c:\users\user\documents\github\iipu\iipu\lab 6\lab 6\main.c(43): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+  c:\users\user\documents\github\iipu\iipu\lab 6\lab 6\main.c(43): note: заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+  c:\users\user\documents\github\iipu\iipu\lab 6\lab 6\main.c(43): note: отсутствующий вариативный аргумент "2" требуется для строки форматирования "%c"
+  c:\users\user\documents\github\iipu\iipu\lab 6\lab 6\main.c(43): note: этот аргумент используется в качестве размера буфера
+  deviceDao.c
+c:\users\user\documents\github\iipu\iipu\lab 6\lab 6\devicedao.c(277): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+  c:\users\user\documents\github\iipu\iipu\lab 6\lab 6\devicedao.c(277): note: заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+  c:\users\user\documents\github\iipu\iipu\lab 6\lab 6\devicedao.c(277): note: отсутствующий вариативный аргумент "2" требуется для строки форматирования "%c"
+  c:\users\user\documents\github\iipu\iipu\lab 6\lab 6\devicedao.c(277): note: этот аргумент используется в качестве размера буфера
+  Создание кода...
+  Lab 6.vcxproj -> C:\Users\User\Documents\GitHub\iipu\IIPU\Lab 6\Debug\Lab 6.exe
